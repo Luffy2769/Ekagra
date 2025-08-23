@@ -1,0 +1,52 @@
+.n{
+    background-color: bisque;
+}
+
+.item{
+    color: black;
+
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important; 
+    list-style: none;
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  opacity: 0.7;
+}
+/* Make arrow smaller */
+/* .dropdown-toggle::after {
+  font-size: 0.8em;
+  opacity: 0.6;
+} */
+
+/* Change arrow color */
+/* .dropdown-toggle::after {
+  color: rgba(0, 0, 0, 0.4);
+} */
+
+/* Hide arrow completely */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* Dropdown menu container styling  */
+.dropdown-menu {
+  background-color: rgb(221, 176, 50);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.dropdown-item:hover{
+    background-color: rgb(233, 195, 113);
+}

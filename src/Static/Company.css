@@ -1,0 +1,20 @@
+.shop-btn:hover {
+    background-color: rgb(231, 192, 146) !important;
+    transform: translateY(-2px);
+}
+
+.bg::before {
+    margin-top: 84px;
+    opacity: 0.5;
+    content: "";
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('../assets/Bg-1.png') no-repeat center center/cover;
+}
+h3{
+    padding-top: 100px;
+}
